@@ -1,0 +1,75 @@
+header {
+  font-family: 'Playfair Display', serif;
+  margin: 100px 0;
+  color: #4C4D4D;
+}
+header p {
+  color: #CACCCB;
+}
+
+.statement {
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0;
+}
+.statement .contacty {
+  color: #4C4D4D;
+}
+.statement h2 {
+  border-bottom: 1px dotted #4C4D4D;
+  color: #4C4D4D;
+}
+.statement p {
+  color: #CACCCB;
+}
+
+.positions {
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0;
+}
+.positions h2 {
+  border-bottom: 1px dotted #4C4D4D;
+}
+.positions p {
+  color: #CACCCB;
+}
+
+.partners {
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0;
+}
+.partners h2 {
+  border-bottom: 1px dotted #4C4D4D;
+  color: #4C4D4D;
+}
+.partners p {
+  color: #CACCCB;
+}
+.partners ul {
+  list-style: none;
+  padding: 0;
+}
+.partners li {
+  display: inline;
+}
+
+.contact {
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0;
+}
+.contact h2 {
+  border-bottom: 1px dotted #4C4D4D;
+  color: #4C4D4D;
+  margin: 40px 0;
+}
+.contact textarea {
+  min-height: 200px;
+}
+
+footer {
+  background-color: #4C4D4D;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+footer p {
+  margin: 40px 0;
+}
