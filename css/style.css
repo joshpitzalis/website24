@@ -1,99 +1,87 @@
-/* line 6, ../scss/style.scss */
+/* line 7, ../scss/style.scss */
 header {
   font-family: 'Playfair Display', serif;
   margin: 100px 0;
   color: #4C4D4D;
 }
-/* line 10, ../scss/style.scss */
+/* line 11, ../scss/style.scss */
+header h1 {
+  font-size: 400%;
+}
+/* line 14, ../scss/style.scss */
 header p {
-  color: #CACCCB;
+  color: #8D8D8D;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 21, ../scss/style.scss */
 .statement {
   font-family: 'Playfair Display', serif;
   margin: 40px 0;
 }
-/* line 18, ../scss/style.scss */
-.statement .contacty {
-  color: #4C4D4D;
+/* line 24, ../scss/style.scss */
+.statement .mediaIcons {
+  display: inline;
 }
-/* line 21, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 .statement h2 {
   border-bottom: 1px dotted #4C4D4D;
   color: #4C4D4D;
 }
-/* line 25, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .statement p {
-  color: #CACCCB;
+  color: #8D8D8D;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 .positions {
   font-family: 'Playfair Display', serif;
   margin: 40px 0;
 }
-/* line 34, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .positions h2 {
   border-bottom: 1px dotted #4C4D4D;
 }
-/* line 37, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .positions p {
-  color: #CACCCB;
+  color: #8D8D8D;
 }
 
-/* line 42, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .partners {
   font-family: 'Playfair Display', serif;
   margin: 40px 0;
 }
-/* line 45, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .partners h2 {
   border-bottom: 1px dotted #4C4D4D;
   color: #4C4D4D;
 }
-/* line 49, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .partners p {
-  color: #CACCCB;
+  color: #8D8D8D;
 }
-/* line 52, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .partners ul {
   list-style: none;
   padding: 0;
 }
-/* line 57, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .partners li {
   display: inline;
 }
-/* line 61, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .partners img {
   height: 100px;
-  margin: 20px;
+  margin: 50px 40px;
 }
 
-/* line 69, ../scss/style.scss */
-.contact {
-  font-family: 'Playfair Display', serif;
-  margin: 40px 0;
-}
-/* line 73, ../scss/style.scss */
-.contact h2 {
-  border-bottom: 1px dotted #4C4D4D;
-  color: #4C4D4D;
-  margin: 40px 0;
-}
-/* line 79, ../scss/style.scss */
-.contact textarea {
-  min-height: 200px;
-}
-
-/* line 84, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 footer {
   background-color: #4C4D4D;
   color: white;
   font-family: 'Playfair Display', serif;
 }
-/* line 88, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 footer p {
   margin: 40px 0;
 }

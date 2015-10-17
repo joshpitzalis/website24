@@ -3,27 +3,33 @@
 }
 
 
+
 header {
   font-family: 'Playfair Display', serif;
   margin: 100px 0 ;
   color: #4C4D4D;
-  p {
-      color: #CACCCB;
+  h1 {
+      font-size: 400%;
   }
+  p {
+      color: #8D8D8D;
+  }
+
+
 }
 
 .statement {
   font-family: 'Playfair Display', serif;
   margin: 40px 0;
-  .contacty {
-      color: #4C4D4D;
+  .mediaIcons {
+display: inline;
   }
   h2 {
       border-bottom: 1px dotted #4C4D4D;
       color: #4C4D4D;
   }
   p {
-      color: #CACCCB;
+      color: #8D8D8D;
   }
 
 }
@@ -35,19 +41,20 @@ header {
         border-bottom: 1px dotted #4C4D4D;
     }
     p {
-        color: #CACCCB;
+        color: #8D8D8D;
     }
 }
 
 .partners {
     font-family: 'Playfair Display', serif;
     margin: 40px 0;
+
     h2 {
         border-bottom: 1px dotted #4C4D4D;
         color: #4C4D4D;
     }
     p {
-        color: #CACCCB;
+        color: #8D8D8D;
     }
     ul  {
         list-style: none;
@@ -60,26 +67,13 @@ header {
 
     img {
         height: 100px;
-        margin: 20px;
+        margin: 50px 40px;
     }
 }
 
 
 
-.contact {
 
-    font-family: 'Playfair Display', serif;
-    margin: 40px 0;
-    h2 {
-        border-bottom: 1px dotted #4C4D4D;
-        color: #4C4D4D;
-        margin: 40px 0;
-    }
-
-    textarea {
-        min-height: 200px;
-    }
-}
 
 footer {
     background-color: #4C4D4D;
