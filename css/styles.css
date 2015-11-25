@@ -4,8 +4,27 @@ body {
   color: rgb(0, 37, 66);
 }
 
-.main p {
+.main p,
+.partnerships p,
+.title-2 p {
   margin-bottom: 1em;
+}
+
+.byline {
+  float: left;
+  width: 50%;
+  min-height: 468px;
+  margin: 120px 0 0 8.5%;
+  font: 900 4em/1.38 'Playfair Display';
+  color: rgb(212, 207, 202);
+}
+
+.coins {
+  position: relative;
+  float: left;
+  width: 85%;
+  height: 198px;
+  margin-left: 12.64706%;
 }
 
 .contact {
@@ -16,57 +35,47 @@ body {
   background-color: #002746;
 }
 
-.contact .text {
-  width: 50%;
-  min-height: 468px;
-  margin: 107px 0 0 8.5%;
-  font-family: 'Playfair Display';
-  font-size: 4em;
-  font-weight: 900;
-  color: rgb(212, 207, 202);
-}
-
-.container {
-  float: left;
-}
-
-.container .container {
-  width: 85%;
-  height: 198px;
-  margin: -11px 0 0 12.64706%;
-}
-
-.container .image {
-  width: 166px;
-  margin-left: 22.77987%;
-}
-
-.container .text {
-  clear: both;
-  font-size: 1em;
+.copyright {
+  width: 32%;
+  min-height: 44px;
+  margin: 92px auto 0;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1.38;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .current {
   position: relative;
   float: left;
-  clear: both;
   z-index: 18;
   width: 40.5%;
   min-height: 232px;
-  margin: 100px 0 0 8.5%;
+  margin: 67px 0 0 8.5%;
   font-size: 1em;
   line-height: 1.38;
   color: rgb(0, 37, 66);
 }
 
+.desc {
+  position: absolute;
+  min-height: 89px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 36, 67);
+}
+
 .description {
-  float: left;
+  position: absolute;
+}
+
+.description .description {
+  left: 8.5%;
   width: 83%;
   min-height: 287px;
-  margin: 131px 0 0 8.5%;
-  font-size: 1.5em;
-  line-height: 1.38;
+  font: 400 1.5em/1.38 'Playfair Display';
   color: rgb(0, 37, 66);
 }
 
@@ -74,11 +83,10 @@ body {
   display: block;
   position: relative;
   float: left;
-  clear: both;
-  z-index: 27;
+  z-index: 31;
   width: 197px;
   height: auto;
-  margin: -183px 0 0 31.01211%;
+  margin-left: 31.01211%;
   overflow: hidden;
 }
 
@@ -90,35 +98,42 @@ body {
   background-color: #e0dbd5;
 }
 
+.inner {
+  position: absolute;
+}
+
+.inner .image {
+  width: 166px;
+}
+
 .logos {
   float: left;
   clear: both;
   width: 100%;
-  height: 790px;
+  height: 720px;
   margin-top: 1621px;
   background-color: #ffffff;
 }
 
 .logos .image {
   position: relative;
-  width: 100px;
 }
 
 .main {
   position: absolute;
-  top: 2039px;
+  top: 2673px;
   left: 0;
-  z-index: 20;
+  z-index: 19;
   width: 100%;
-  height: 1621px;
-  background-color: rgb(255, 255, 255);
+  height: 987px;
+  background-color: rgb(224, 219, 213);
 }
 
 .overlay {
   position: absolute;
   top: 32px;
   left: 0;
-  z-index: 40;
+  z-index: 46;
   width: 100%;
   height: 537px;
   background-color: rgb(0, 0, 0);
@@ -126,25 +141,30 @@ body {
 }
 
 .partners {
+  position: relative;
   float: left;
   width: 27.6666666666%;
   height: 265px;
   margin: 195px 0 0 3.2487%;
 }
 
+.partners .desc {
+  top: 353px;
+  left: 19.8795180722%;
+  z-index: 24;
+  width: 60.2409638554%;
+}
+
 .partners .image {
-  width: 166px;
   margin-left: 26.59074%;
 }
 
-.partners .text {
-  clear: both;
-  width: 60.2409638554%;
-  min-height: 89px;
-  margin: 27px 0 0 19.87952%;
-  font-size: 1em;
-  text-align: center;
-  color: rgb(0, 36, 67);
+.partners .inner {
+  top: 0;
+  left: 0;
+  z-index: 27;
+  width: 100%;
+  height: 381px;
 }
 
 .partnerships {
@@ -175,29 +195,110 @@ body {
 
 .rupee {
   display: block;
-  position: relative;
-  float: left;
-  z-index: 28;
+  position: absolute;
+  top: 15px;
+  left: -0.3189878893%;
+  z-index: 32;
   width: 168px;
   height: auto;
-  margin: 15px 0 0 -0.31899%;
   overflow: hidden;
 }
 
+.strategy {
+  position: relative;
+  float: left;
+  width: 26.3333333333%;
+  height: 273px;
+  margin: 217px 0 0 5.5%;
+}
+
+.strategy .desc {
+  top: 325px;
+  left: 18.3126452697%;
+  z-index: 37;
+  width: 63.1867860145%;
+}
+
+.strategy .image {
+  margin-left: 22.73874%;
+}
+
+.strategy .inner {
+  top: 0;
+  left: -0.3065664557%;
+  z-index: 39;
+  width: 99.9851661392%;
+  height: 389px;
+}
+
+.strategy .title {
+  top: 198px;
+  left: -0.1384699076%;
+  z-index: 38;
+  width: 99.9851639384%;
+  min-height: 74px;
+  text-transform: uppercase;
+  color: rgb(0, 35, 62);
+}
+
 .text {
+  position: absolute;
+  left: 8.5%;
   line-height: 1.38;
 }
 
 .timeline {
-  position: relative;
-  float: left;
+  position: absolute;
+  top: 60px;
+  left: 68%;
   z-index: 16;
   width: 23.5%;
   min-height: 405px;
-  margin: -322px 0 0 17.06901%;
   font-size: 1em;
   line-height: 1.38;
   color: rgb(0, 37, 66);
+}
+
+.title {
+  position: absolute;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.ventures {
+  position: relative;
+  float: left;
+  width: 28.3333333333%;
+  height: 303px;
+  margin: 157px 0 0 3.2474%;
+}
+
+.ventures .desc {
+  top: 407px;
+  left: 0;
+  right: 0;
+  z-index: 29;
+  width: 58.8235294117%;
+  margin: 0 auto;
+}
+
+.ventures .inner {
+  top: -11px;
+  left: 0;
+  z-index: 34;
+  width: 100%;
+  height: 428px;
+}
+
+.ventures .title {
+  top: 215px;
+  left: 0;
+  z-index: 30;
+  width: 100%;
+  min-height: 65px;
+  color: rgb(0, 0, 0);
 }
 
 ._button {
@@ -206,7 +307,7 @@ body {
   clear: both;
   width: 23.5%;
   height: 76px;
-  margin: 61px 0 0 8.5%;
+  margin: 56px 0 0 8.5%;
   border-radius: 3px;
   background-color: #ce9e52;
   font-size: 1.5em;
@@ -216,6 +317,10 @@ body {
   color: rgb(0, 37, 66);
 }
 
+._container {
+  width: 100%;
+}
+
 ._image {
   display: block;
   float: left;
@@ -223,27 +328,34 @@ body {
   overflow: hidden;
 }
 
-._text {
-  float: left;
+.description-1 {
+  top: 2039px;
+  left: 0;
+  z-index: 23;
+  width: 100%;
+  height: 634px;
 }
 
-.container-1 {
-  width: 26.3333333333%;
-  height: 273px;
-  margin: 185px 0 0 5.91667%;
+.description-2 {
+  top: 98px;
+  z-index: 22;
 }
 
-.container-2 {
-  width: 28.3333333333%;
-  height: 303px;
-  margin: 157px 0 0 2.83073%;
+.description-3 {
+  top: 219px;
+  z-index: 21;
+}
+
+.description-4 {
+  top: 404px;
+  z-index: 20;
 }
 
 .image-1 {
   position: absolute;
   top: -103px;
   left: 0;
-  z-index: 39;
+  z-index: 45;
   width: 100%;
   height: 672px;
   background: url('../images/roof.jpg') rgb(0, 39, 70);
@@ -255,77 +367,88 @@ body {
 
 .image-10 {
   z-index: 6;
-  margin: 86px 0 0 17.16667%;
+  width: 100px;
+  margin: 75px 0 0 17.16667%;
 }
 
 .image-11 {
   z-index: 7;
-  margin: 86px 0 0 17.33073%;
+  width: 100px;
+  margin: 72px 0 0 17.16667%;
 }
 
 .image-12 {
   clear: both;
   z-index: 9;
-  margin: 23px 0 0 34%;
+  width: 100px;
+  margin: 9px 0 0 34%;
 }
 
 .image-13 {
   clear: both;
   z-index: 3;
-  margin: 31px 0 0 8.66667%;
+  width: 100px;
+  margin: 55px 0 0 8.66667%;
 }
 
 .image-14 {
   z-index: 2;
-  margin: 55px 0 0 17%;
+  width: 164px;
+  margin: 61px 0 0 14.33073%;
 }
 
 .image-15 {
   z-index: 14;
-  margin: 10px 0 0 17.9987%;
+  width: 100px;
+  margin: 34px 0 0 15.33073%;
 }
 
 .image-16 {
   z-index: 11;
-  margin: -31px 0 0 16.33464%;
+  width: 100px;
+  margin: -12px 0 0 16.33724%;
 }
 
 .image-4 {
   z-index: 8;
+  width: 100px;
   margin: 88px 0 0 8.66667%;
 }
 
 .image-5 {
   z-index: 5;
+  width: 100px;
   margin: 88px 0 0 17%;
 }
 
 .image-6 {
   z-index: 12;
+  width: 100px;
   margin: 83px 0 0 17.16667%;
 }
 
 .image-7 {
   z-index: 10;
-  margin: 88px 0 0 17.33073%;
+  width: 100px;
+  margin: 83px 0 0 17.33464%;
 }
 
 .image-8 {
   clear: both;
   z-index: 4;
-  margin: 103px 0 0 8.66667%;
+  width: 100px;
+  margin: 109px 0 0 8.66667%;
 }
 
 .image-9 {
   z-index: 13;
-  margin: 71px 0 0 17%;
+  width: 100px;
+  margin: 61px 0 0 17%;
 }
 
 .text-1 {
-  position: absolute;
   top: 239px;
-  left: 8.5%;
-  z-index: 42;
+  z-index: 48;
   width: 49%;
   min-height: 114px;
   font-family: 'Playfair Display';
@@ -335,10 +458,8 @@ body {
 }
 
 .text-2 {
-  position: absolute;
   top: 369px;
-  left: 8.5%;
-  z-index: 41;
+  z-index: 47;
   width: 42.8333333333%;
   min-height: 74px;
   font-size: 1.5em;
@@ -346,64 +467,77 @@ body {
   color: rgb(224, 219, 213);
 }
 
-.text-4 {
-  width: 100.1498252039%;
-  min-height: 74px;
-  margin: 32px 0 0 -0.14834%;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  color: rgb(0, 35, 62);
-}
-
-.text-5 {
-  width: 63.2911392405%;
-  min-height: 89px;
-  margin: 28px 0 0 18.34949%;
-  color: rgb(0, 36, 67);
-}
-
-.text-6 {
-  width: 100%;
-  min-height: 65px;
-  margin-top: 17px;
-  letter-spacing: 10px;
-  color: rgb(0, 0, 0);
-}
-
-.text-7 {
-  width: 58.8235294117%;
-  min-height: 89px;
-  margin: 25px 0 0 20.87776%;
-  color: rgb(0, 36, 67);
-}
-
-.text-9 {
-  width: 16.8333333333%;
-  min-height: 44px;
-  margin: 122px 0 0 39.33203%;
-  font-size: 1em;
-  font-weight: 400;
-  text-align: right;
-  color: rgb(255, 255, 255);
-}
-
 ._container-1 {
   position: absolute;
   top: -101px;
   left: 0;
-  z-index: 43;
-  width: 100%;
+  z-index: 49;
   height: 569px;
   background-color: rgb(0, 0, 0);
 }
 
-._container-5 {
+._container-2 {
   position: relative;
   float: left;
   clear: both;
-  width: 100%;
   height: 229px;
   background-color: #002746;
+}
+
+.byline span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #e0dbd5;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.copyright a,
+.timeline span,
+.timeline strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
 }
 
 .current span {
@@ -530,8 +664,10 @@ body {
   font-family: inherit;
   font-style: inherit;
   font-weight: inherit;
+  text-transform: inherit;
   text-decoration: inherit;
   word-spacing: inherit;
+  color: #e0dbd5;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
@@ -540,37 +676,12 @@ body {
 
 .text-1 span {
   font-size: 4.5em;
-  text-transform: inherit;
   letter-spacing: inherit;
-  color: #e0dbd5;
 }
 
 .text-2 span {
   font-size: inherit;
-  text-transform: inherit;
   letter-spacing: 0;
-  color: #e0dbd5;
-}
-
-.text-3 span {
-  font-size: inherit;
-  text-transform: inherit;
-  letter-spacing: inherit;
-  color: #e0dbd5;
-}
-
-.text-4 span {
-  font-size: 1.5em;
-  text-transform: inherit;
-  letter-spacing: inherit;
-  color: #00213a;
-}
-
-.text-6 span {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: inherit;
-  color: #00213a;
 }
 
 .current em,
@@ -601,8 +712,7 @@ body {
   white-space: normal;
 }
 
-.timeline span,
-.timeline strong {
+.title span {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
@@ -616,75 +726,80 @@ body {
   background-color: transparent;
   font-family: inherit;
   font-style: inherit;
-  font-size: inherit;
+  font-size: 1.5em;
   font-weight: inherit;
-  text-transform: inherit;
   text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
-  color: inherit;
+  color: #00213a;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
 }
 
-@media(max-width: 640px) {
-  .contact {
-    height: 906px;
-  }
+.title-1 span {
+  text-transform: inherit;
+}
 
-  .contact .text {
-    width: 72.96875%;
-    margin-left: 8.4375%;
-  }
+.title-2 span {
+  text-transform: uppercase;
+}
 
-  .container .container {
+@media(max-width: 992px) {
+  .coins .dollar {
     position: relative;
-    z-index: 29;
-    width: 112.4125088293%;
-    height: 1154px;
-    margin-left: 17.66519%;
-  }
-
-  .container .dollar {
-    position: relative;
-    z-index: 27;
+    z-index: 31;
     height: auto;
-    margin-top: -1154px;
-    margin-left: 27.89901%;
+    margin-left: 30.98885%;
   }
 
-  .container .image {
+  .coins .rupee {
     height: auto;
-    margin-left: 15.44077%;
   }
 
-  .container .rupee {
-    position: relative;
-    z-index: 28;
-    height: auto;
-    margin-left: -0.31418%;
-  }
-
-  .features {
-    margin-top: 1273px;
-    margin-left: -126.81152%;
+  .contact .byline {
+    margin-top: 83px;
+    margin-left: 8.49767%;
   }
 
   .features .partners {
+    position: relative;
     clear: both;
-    width: 27.5%;
-    height: 491px;
-    margin-top: -1782px;
-    margin-left: 144.21875%;
+    z-index: 28;
+    width: 27.6209677419%;
+    height: 562px;
+    margin-top: -652px;
+    margin-left: 69.35484%;
+  }
+
+  .features .strategy {
+    width: 26.3104838709%;
+    height: 467px;
+    margin-top: 173px;
+    margin-left: 2.31855%;
+  }
+
+  .features .ventures {
+    position: relative;
+    z-index: 35;
+    width: 41.7338709677%;
+    height: 646px;
+    margin-top: 84px;
+    margin-left: 0;
+  }
+
+  .inner .coins {
+    margin-left: 12.60568%;
+  }
+
+  .inner .image {
+    height: auto;
   }
 
   .logos {
-    position: relative;
-    z-index: 15;
-    margin-top: 2523px;
-    margin-left: 0.41504%;
+    height: 891px;
+    margin-top: 1809px;
   }
 
   .logos .image {
@@ -693,188 +808,1082 @@ body {
   }
 
   .main {
-    top: 1799px;
+    top: 2740px;
+    height: 1108px;
   }
 
   .main .current {
     position: relative;
     z-index: 18;
-    width: 48.9990234375%;
-    margin-top: -294px;
-    margin-left: 16.875%;
-  }
-
-  .main .description {
-    position: relative;
-    z-index: 19;
-    width: 82.998046875%;
-    margin-top: 91px;
-    margin-left: 8.49854%;
+    margin-left: 8.49924%;
   }
 
   .main .past {
     position: relative;
     z-index: 17;
-    width: 48.9990234375%;
-    margin-top: 771px;
-    margin-left: 18.59375%;
+    margin-left: 8.49924%;
   }
 
-  .main .timeline {
-    position: relative;
-    clear: both;
-    z-index: 16;
-    width: 23.4985351562%;
-    margin-left: 17.06543%;
+  .partners .desc {
+    top: 352px;
+    left: 18.6224274556%;
   }
 
   .partners .image {
-    height: auto;
-    margin-left: 73.2777%;
+    margin-left: 26.56633%;
   }
 
-  .partners .partnerships {
-    width: 63.1138113811%;
-    margin-top: 1473px;
-    margin-left: 38.71626%;
+  .partners .inner {
+    top: 100px;
+    width: 100.0294281136%;
+    height: 502px;
   }
 
-  .partners .text {
-    width: 17.0667066706%;
-    margin-left: 19.87749%;
+  .strategy .desc {
+    top: 363px;
+    left: 19.6970241302%;
+  }
+
+  .strategy .image {
+    margin-left: 22.72319%;
+  }
+
+  .ventures .desc {
+    top: 510px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ventures .inner {
+    top: 1px;
+    height: 645px;
+  }
+
+  .ventures .title {
+    top: 286px;
   }
 
   .contact ._button {
-    width: 40.625%;
-    margin-top: 94px;
-    margin-left: 8.4375%;
+    margin-top: 60px;
+    margin-left: 8.49767%;
   }
 
-  .container .text-4 {
-    width: 76.3404187817%;
-    margin-top: 1516px;
-    margin-left: -0.23804%;
+  .description .description-3 {
+    top: 227px;
+    left: 8.4992439516%;
   }
 
-  .container .text-5 {
-    width: 54.1617075299%;
-    margin-left: 18.35277%;
+  .description .description-4 {
+    top: 456px;
+    left: 8.4992439516%;
   }
 
-  .container .text-6 {
-    position: relative;
-    z-index: 26;
-    width: 61.6290983606%;
-    margin-top: -957px;
-    margin-left: -0.1798%;
-  }
-
-  .container .text-7 {
-    position: relative;
-    clear: none;
-    z-index: 25;
-    width: 43.8322738072%;
-    margin-top: -851px;
-    margin-left: 29.17871%;
-  }
-
-  .features .container-1 {
-    position: relative;
-    z-index: 24;
-    width: 30.7690429687%;
-    height: 1983px;
-    margin-top: -1343px;
-    margin-left: 10.15625%;
-  }
-
-  .features .container-2 {
-    position: relative;
-    clear: both;
-    z-index: 30;
-    width: 38.0200195312%;
-    height: 1499px;
-    margin-top: -1500px;
-    margin-left: 40.46875%;
+  .description-1 {
+    height: 701px;
   }
 
   .logos .image-10 {
-    clear: both;
     z-index: 6;
-    margin-top: -99px;
-    margin-left: 111.5625%;
+    margin-top: 107px;
+    margin-left: 61.99282%;
   }
 
   .logos .image-11 {
     clear: both;
     z-index: 7;
-    margin-top: -100px;
-    margin-left: 85.16602%;
+    margin-top: -123px;
+    margin-left: 46.77262%;
   }
 
   .logos .image-12 {
     clear: none;
     z-index: 9;
-    margin-left: 33.99414%;
+    margin-top: 17px;
+    margin-left: 46.77262%;
   }
 
   .logos .image-13 {
     z-index: 3;
-    margin-left: 8.66211%;
+    margin-top: -119px;
+    margin-left: 8.87097%;
   }
 
   .logos .image-14 {
     z-index: 2;
-    margin-left: 39.46289%;
+    margin-top: 96px;
+    margin-left: 43.54839%;
   }
 
   .logos .image-15 {
     clear: both;
     z-index: 14;
-    margin-top: -99px;
-    margin-left: 60.33203%;
+    margin-top: -100px;
+    margin-left: 8.87097%;
   }
 
   .logos .image-16 {
-    clear: both;
     z-index: 11;
     margin-top: -141px;
-    margin-left: 159.375%;
+    margin-left: 80.94758%;
   }
 
   .logos .image-4 {
     z-index: 8;
-    margin-left: 16.25%;
+    margin-top: 78px;
+    margin-left: 8.87097%;
   }
 
   .logos .image-5 {
     z-index: 5;
-    margin-left: 2.1166999999%;
+    margin-top: 78px;
+    margin-left: 27.82258%;
   }
 
   .logos .image-6 {
-    clear: both;
     z-index: 12;
-    margin-top: -105px;
-    margin-left: 111.5625%;
+    margin-top: 78px;
+    margin-left: 24.09117%;
   }
 
   .logos .image-7 {
     clear: both;
     z-index: 10;
-    margin-top: -100px;
-    margin-left: 85.16113%;
+    margin-top: 97px;
+    margin-left: 80.94758%;
   }
 
   .logos .image-8 {
-    clear: none;
     z-index: 4;
-    margin-top: 119px;
-    margin-left: 16.25%;
+    margin-top: -44px;
+    margin-left: 8.87097%;
   }
 
   .logos .image-9 {
     z-index: 13;
-    margin-left: 31.875%;
+    margin-top: -76px;
+    margin-left: 27.82101%;
+  }
+
+  ._container .text-1 {
+    top: 231px;
+    left: 8.4992439516%;
+  }
+
+  ._container .text-2 {
+    top: 431px;
+    left: 8.4992439516%;
+  }
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+
+  .coins .dollar {
+    position: relative;
+    z-index: 31;
+    height: auto;
+    margin-left: 34.24772%;
+  }
+
+  .coins .rupee {
+    height: auto;
+  }
+
+  .contact {
+    position: relative;
+    z-index: 44;
+    height: 839px;
+  }
+
+  .contact .byline {
+    margin-top: 93px;
+    margin-left: 8.49813%;
+  }
+
+  .features {
+    position: relative;
+    z-index: 41;
+    height: 1913px;
+    margin-top: -20px;
+  }
+
+  .features .partners {
+    position: relative;
+    z-index: 28;
+    width: 99.8697916666%;
+    height: 501px;
+    margin-top: 97px;
+    margin-left: 0;
+  }
+
+  .features .strategy {
+    width: 99.609375%;
+    height: 501px;
+    margin-top: 103px;
+    margin-left: 0;
+  }
+
+  .features .ventures {
+    position: relative;
+    clear: both;
+    z-index: 35;
+    width: 99.8697916666%;
+    height: 747px;
+    margin-top: 0;
+    background-color: rgb(202, 194, 184);
+  }
+
+  .inner .coins {
+    float: none;
+    width: 39.0625%;
+    margin-top: 71px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .inner .desc {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .inner .image {
+    float: none;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .inner .partnerships {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .logos {
+    height: 960px;
+    margin-top: 2129px;
+  }
+
+  .logos .image {
+    position: relative;
+    height: auto;
+  }
+
+  .main {
+    top: 4050px;
+    height: 1279px;
+  }
+
+  .main .current {
+    position: relative;
+    z-index: 18;
+    margin-left: 8.49813%;
+  }
+
+  .main .past {
+    position: relative;
+    z-index: 17;
+    margin-left: 8.49813%;
+  }
+
+  .partners .desc {
+    top: 381px;
+  }
+
+  .partners .inner {
+    top: 0;
+    height: 480px;
+  }
+
+  .strategy .desc {
+    top: 288px;
+  }
+
+  .strategy .image {
+    margin-top: 37px;
+  }
+
+  .strategy .inner {
+    width: 100%;
+    height: 501px;
+  }
+
+  .strategy .title {
+    top: 235px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ventures .desc {
+    top: 507px;
+  }
+
+  .ventures .inner {
+    left: 0;
+    right: 0;
+    height: 662px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .contact ._button {
+    width: 31.9010416666%;
+    margin-top: 51px;
+    margin-left: 8.46151%;
+  }
+
+  .description .description-3 {
+    top: 272px;
+    left: 8.4981282552%;
+  }
+
+  .description .description-4 {
+    top: 567px;
+    left: 8.5%;
+  }
+
+  .description-1 {
+    top: 3200px;
+    height: 839px;
+  }
+
+  .logos .image-10 {
+    z-index: 6;
+    margin-top: 41px;
+    margin-left: 21.70207%;
+  }
+
+  .logos .image-11 {
+    z-index: 7;
+    margin-top: 68px;
+    margin-left: 43.75%;
+  }
+
+  .logos .image-12 {
+    clear: both;
+    z-index: 9;
+    margin-top: -38px;
+    margin-left: 8.49813%;
+  }
+
+  .logos .image-13 {
+    z-index: 3;
+    margin-top: 128px;
+    margin-left: 8.49813%;
+  }
+
+  .logos .image-14 {
+    z-index: 2;
+    margin-top: 119px;
+    margin-left: 18.06234%;
+  }
+
+  .logos .image-15 {
+    clear: none;
+    z-index: 14;
+    margin-top: -77px;
+    margin-left: 17.53337%;
+  }
+
+  .logos .image-16 {
+    clear: both;
+    z-index: 11;
+    margin-top: -145px;
+    margin-left: 78.4668%;
+  }
+
+  .logos .image-4 {
+    z-index: 8;
+    margin-top: 145px;
+    margin-left: 8.49813%;
+  }
+
+  .logos .image-5 {
+    z-index: 5;
+    margin-top: 145px;
+    margin-left: 22.23104%;
+  }
+
+  .logos .image-6 {
+    z-index: 12;
+    margin-top: 145px;
+    margin-left: 21.698%;
+  }
+
+  .logos .image-7 {
+    z-index: 10;
+    margin-top: 32px;
+    margin-left: 78.47697%;
+  }
+
+  .logos .image-8 {
+    z-index: 4;
+    margin-top: 21px;
+    margin-left: 8.49813%;
+  }
+
+  .logos .image-9 {
+    z-index: 13;
+    margin-top: 19px;
+    margin-left: 22.23104%;
+  }
+}
+
+@media(max-width: 480px) {
+  .coins .dollar {
+    position: relative;
+    z-index: 31;
+    height: auto;
+    margin-left: 30.627%;
+  }
+
+  .coins .rupee {
+    height: auto;
+  }
+
+  .contact {
+    position: relative;
+    z-index: 44;
+  }
+
+  .contact .byline {
+    width: 83.1111111111%;
+    margin-top: 120px;
+    margin-left: 8.4375%;
+    font-size: 3.25em;
+  }
+
+  .description {
+    top: 3220px;
+  }
+
+  .description .description,
+  .inner .desc {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features {
+    position: relative;
+    z-index: 41;
+    margin-top: 0;
+  }
+
+  .features .partners {
+    position: relative;
+    z-index: 28;
+    width: 99.5555555555%;
+    height: 580px;
+    margin-top: 0;
+  }
+
+  .features .strategy {
+    width: 99.5555555555%;
+    height: 580px;
+    margin-top: 0;
+    margin-left: 0.4362%;
+  }
+
+  .features .ventures {
+    position: relative;
+    z-index: 35;
+  }
+
+  .inner .coins {
+    width: 63.1111111111%;
+    margin-top: 0;
+  }
+
+  .inner .image {
+    height: auto;
+  }
+
+  .inner .partnerships {
+    float: left;
+    clear: both;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .logos {
+    position: relative;
+    z-index: 15;
+    height: 973px;
+    margin-top: 2452px;
+  }
+
+  .logos .image {
+    position: relative;
+    height: auto;
+  }
+
+  .main {
+    top: 4472px;
+    height: 1226px;
+  }
+
+  .main .current {
+    position: relative;
+    z-index: 18;
+    width: 82.6666666666%;
+    margin-left: 8.4375%;
+  }
+
+  .main .past {
+    position: relative;
+    z-index: 17;
+    width: 82.2222222222%;
+    margin-top: 61px;
+    margin-left: 8.49935%;
+  }
+
+  .main .timeline {
+    display: none;
+  }
+
+  .partners .desc {
+    top: 350px;
+  }
+
+  .partners .inner {
+    top: 100px;
+  }
+
+  .strategy .desc {
+    top: 309px;
+  }
+
+  .strategy .image {
+    margin-top: 0;
+  }
+
+  .strategy .inner {
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .strategy .title {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ventures .desc {
+    top: 475px;
+  }
+
+  .ventures .inner {
+    top: 101px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ventures .title {
+    top: 254px;
+  }
+
+  .contact ._button {
+    width: 48.8888888888%;
+    margin-top: 46px;
+    margin-left: 8.4375%;
+  }
+
+  .description .description-2 {
+    top: 100px;
+  }
+
+  .description .description-3 {
+    top: 345px;
+  }
+
+  .description .description-4 {
+    top: 803px;
+  }
+
+  .description-1 {
+    height: 1301px;
+  }
+
+  .logos .image-10 {
+    z-index: 6;
+    margin-top: -495px;
+    margin-left: 21.54948%;
+  }
+
+  .logos .image-11 {
+    clear: none;
+    z-index: 7;
+    margin-top: -367px;
+    margin-left: 21.54948%;
+  }
+
+  .logos .image-12 {
+    clear: none;
+    z-index: 9;
+    margin-top: -295px;
+    margin-left: 21.54948%;
+  }
+
+  .logos .image-13 {
+    clear: none;
+    z-index: 3;
+    margin-top: -223px;
+    margin-left: 21.54948%;
+  }
+
+  .logos .image-14 {
+    clear: both;
+    z-index: 2;
+    margin-top: 43px;
+    margin-left: 10.6542999999%;
+  }
+
+  .logos .image-15 {
+    z-index: 14;
+    margin-top: 33px;
+    margin-left: 13.66862%;
+  }
+
+  .logos .image-16 {
+    z-index: 11;
+    margin-top: -269px;
+    margin-left: 60.76172%;
+  }
+
+  .logos .image-4 {
+    z-index: 8;
+    margin-top: 151px;
+    margin-left: 16.9987%;
+  }
+
+  .logos .image-5 {
+    clear: both;
+    z-index: 5;
+    margin-top: 43px;
+    margin-left: 16.9987%;
+  }
+
+  .logos .image-6 {
+    clear: both;
+    z-index: 12;
+    margin-top: 43px;
+    margin-left: 16.9987%;
+  }
+
+  .logos .image-7 {
+    z-index: 10;
+    margin-top: 44px;
+    margin-left: 16.9987%;
+  }
+
+  .logos .image-8 {
+    z-index: 4;
+    margin-top: 43px;
+    margin-left: 16.9987%;
+  }
+
+  .logos .image-9 {
+    z-index: 13;
+    margin-top: -118px;
+    margin-left: 21.54948%;
+  }
+
+  ._container .text-2 {
+    top: 453px;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 1em;
+  }
+
+  .coins .dollar {
+    position: absolute;
+    float: none;
+    left: 31.6117869127%;
+    width: 204px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .coins .rupee {
+    top: 22px;
+    left: 0.2356391056%;
+    width: 160px;
+    height: auto;
+  }
+
+  .contact {
+    position: relative;
+    z-index: 44;
+    height: 717px;
+  }
+
+  .contact .byline {
+    position: relative;
+    z-index: 43;
+    width: 83.125%;
+    margin-top: 126px;
+    margin-left: 8.48633%;
+    font-size: 2.375em;
+  }
+
+  .description {
+    top: 3115px;
+  }
+
+  .features {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 1185px;
+    height: 1930px;
+  }
+
+  .features .partners {
+    position: relative;
+    z-index: 28;
+    width: 100%;
+    height: 619px;
+  }
+
+  .features .strategy {
+    width: 99.7777777777%;
+    height: 387px;
+    margin-top: 106px;
+    margin-left: 0.11719%;
+  }
+
+  .features .ventures {
+    position: relative;
+    z-index: 35;
+    height: 666px;
+    margin-top: 157px;
+  }
+
+  .inner .coins {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    width: 66.5178571428%;
+    height: 205px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .inner .desc,
+  .inner .title {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .inner .image {
+    height: auto;
+  }
+
+  .inner .partnerships {
+    width: 87.460815047%;
+    margin-top: 30px;
+    margin-left: 6.2598%;
+  }
+
+  .logos {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 6235px;
+    height: 861px;
+    margin-top: 0;
+  }
+
+  .logos .image {
+    height: auto;
+  }
+
+  .main {
+    top: 4758px;
+    height: 1544px;
+  }
+
+  .main .current {
+    position: relative;
+    z-index: 18;
+    width: 83.0666666666%;
+    margin-top: 112px;
+    margin-left: 8.48633%;
+  }
+
+  .main .past {
+    position: relative;
+    z-index: 17;
+    width: 83.0666666666%;
+    margin-top: 99px;
+    margin-left: 8.48633%;
+  }
+
+  .main .timeline {
+    top: 70px;
+    left: 6.9333333333%;
+    width: 82.9333333333%;
+  }
+
+  .partners .desc {
+    top: 510px;
+    width: 64.6739130434%;
+  }
+
+  .partners .image {
+    width: 238px;
+    margin-top: 53px;
+  }
+
+  .partners .inner {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 99.6875%;
+    height: 680px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .strategy .desc {
+    top: 298px;
+    width: 65.2173913043%;
+  }
+
+  .strategy .image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 179px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .strategy .inner {
+    top: 1px;
+    left: 0;
+    right: 0;
+    height: 423px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .strategy .title {
+    top: 200px;
+    width: 100%;
+  }
+
+  .ventures .desc {
+    top: 518px;
+    width: 67.0391061452%;
+  }
+
+  .ventures .inner {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 99.6875%;
+    height: 643px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ventures .title {
+    top: 281px;
+  }
+
+  .contact ._button {
+    position: relative;
+    z-index: 42;
+    width: 57.5555555555%;
+    margin-top: -76px;
+    margin-left: 8.48633%;
+  }
+
+  .description .description-2 {
+    top: 76px;
+    left: 0;
+    right: 0;
+    width: 82.9979166666%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .description .description-3 {
+    top: 402px;
+    left: 8.5%;
+    right: auto;
+    width: 83.1111111111%;
+  }
+
+  .description .description-4 {
+    top: 1107px;
+    left: 8.5009765625%;
+    right: auto;
+    width: 82.8888888888%;
+  }
+
+  .description-1 {
+    height: 1704px;
+  }
+
+  .logos .image-10 {
+    position: absolute;
+    float: none;
+    top: 535px;
+    left: 10.25%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-11 {
+    position: absolute;
+    float: none;
+    top: 101px;
+    left: 59.3298611111%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-12 {
+    position: relative;
+    clear: both;
+    z-index: 9;
+    margin-top: 37px;
+    margin-left: 10.23926%;
+  }
+
+  .logos .image-13 {
+    position: absolute;
+    float: none;
+    top: 670px;
+    left: 59.3298611111%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-14 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 467px;
+    left: 56.2222222222%;
+    width: 145px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-15 {
+    position: absolute;
+    float: none;
+    top: 647px;
+    left: 10.25%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-16 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 172px;
+    left: 59.3298611111%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-4 {
+    position: relative;
+    z-index: 8;
+    width: 99px;
+    margin-top: 341px;
+    margin-left: 59.32129%;
+  }
+
+  .logos .image-5 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 279px;
+    left: 10.25%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-6 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 101px;
+    left: 10.25%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-7 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 390px;
+    left: 10.25%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-8 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 575px;
+    left: 59.3298611111%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logos .image-9 {
+    position: absolute;
+    float: none;
+    top: 203px;
+    left: 10.25%;
+    width: 99px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  ._container .copyright-1 {
+    float: right;
+    margin-top: 89px;
+    margin-right: 33.99414%;
+    margin-left: 0;
   }
 
   ._container .image-1 {
@@ -882,32 +1891,24 @@ body {
     width: 187.5%;
   }
 
-  ._container .overlay-1 {
-    width: 187.5%;
-  }
-
   ._container .text-1 {
     top: 182px;
-    left: 8.4985351562%;
-    width: 48.9990234375%;
+    left: 8.4375%;
+    width: 83.125%;
+    font-size: 3.25em;
   }
 
   ._container .text-2 {
     top: 411px;
-    left: 8.4985351562%;
-    width: 23.4985351562%;
+    left: 8.4375%;
+    width: 65.9375%;
   }
 
-  ._container .text-9 {
-    float: right;
-    width: 18.4155273437%;
-    margin-right: 43.83789%;
-    margin-left: 0;
-  }
-
-  ._container-5 {
-    position: relative;
-    z-index: 1;
-    margin-top: -29px;
+  ._container-2 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 7096px;
+    left: 0;
   }
 }
